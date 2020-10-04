@@ -15,3 +15,8 @@ storeTab.onclick=function storePage(){
 cartTab.onclick=function storePage(){
   location.href= "cart.html";
 }
+var result=0;
+function addvalue(number){
+	result=result+number;
+    console.log(result);
+}
