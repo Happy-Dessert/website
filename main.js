@@ -28,3 +28,8 @@ homeTab.onclick=function homePage(){
 storeTab.onclick=function storePage(){
 	location.href= "store.html";
 }
+cartTab.onclick=function storePage(){
+  location.href= "cart.html";
+}
+
+
