@@ -25,6 +25,12 @@ h1{
 }
 footer{
 	text-align: center;
+	color: #232424;
+	background-color: #c4e0d1;
+	border: none;
+	font-family: Century Gothic;
+	text-align: center;
+	font-size: 16px;
 }
 button{
 	color: #232424;
@@ -49,15 +55,16 @@ button{
 	margin: 15px;
 
 }
+/*
 .dessert img{
 	width:22%;
 	height: 25%;
 	margin: 15px;
-}
+}*/
 .offers img{
-	width:30%;
+	width:22%;
 	height: 25%;
-	margin: 15px;
+	margin: 60px;
 }
 .Addtocart button{
 	width:22%;
@@ -78,7 +85,7 @@ margin: 80px;
 }
 .quantity1  label {
 	text-align: center;
-	margin-left:160px;
+	margin-left:200px;
 	
 	
 }
