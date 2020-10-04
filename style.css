@@ -1,4 +1,9 @@
 
+.body {
+	background-color: white
+	color:#232424;
+	font-family: Century Gothic;
+}
 .slideshow{
 	
 	margin: 20px;
@@ -12,17 +17,19 @@
     max-height: 400px;
 }
 h1{
-	color: pink;
+	color: #232424;
+	background-color: #c4e0d1;
+	border: none;
+	font-family: Century Gothic;
 	text-align: center;
-	font-family: arial;
-	font-size: 50px;
+	font-size: 40px;
 }
 footer{
 	text-align: center;
 }
 button{
-	color: white;
-	background-color: pink;
+	color: #232424;
+	background-color: #c4e0d1;
 	border: none;
 	width: 400px;
 	height: 40px;
