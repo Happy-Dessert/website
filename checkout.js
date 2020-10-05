@@ -59,6 +59,12 @@ console.log(amount);
 // console.log(result);
 // }
 //$("#amount").text(total);
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 139399152aa53b6bf056bbb0fcf31dc4c029bee2
 // function object(){
 //   var info={};
 //   info.phone=document.getElementById("phone").value;
@@ -71,8 +77,16 @@ add1.onclick = function addTask() {
   var inputText1 = document.getElementById("phone").value;
   var inputText2 = document.getElementById("Address").value;
   var inputText3 = document.getElementById("amount").value;
+<<<<<<< HEAD
   var finalInput = "Phone: " +inputText1 +\n+ "Address: " + inputText2 +\n+ "Amount: $" + inputText3;  
   confirm(finalInput);
+=======
+  var finalInput = "address:" +inputText2+"     "+"Phone:" +inputText1;
+  
+  confirm(finalInput);
+}
+
+>>>>>>> 139399152aa53b6bf056bbb0fcf31dc4c029bee2
   // var newTask = document.createElement("li");
   // //add <li> to <ul>
   // document.getElementById("todo-list").appendChild(newTask);
@@ -80,4 +94,9 @@ add1.onclick = function addTask() {
   // //inner.HTML is used to type in values/give values
   // newTask.innerHTML = inputText;
   // console.log("Add new task");
+<<<<<<< HEAD
 }
+=======
+
+
+>>>>>>> 139399152aa53b6bf056bbb0fcf31dc4c029bee2
