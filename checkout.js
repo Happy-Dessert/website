@@ -63,17 +63,22 @@ console.log(amount);
 
 
 
+// function object(){
+//   var info={};
+//   info.phone=document.getElementById("phone").value;
+//   info.address=document.getElementById("Address").value;
+//   info.amount=document.getElementById("amount").value;
+// }
 var add1= document.getElementById("order");
 add1.onclick = function addTask() {
-  var info={};
-  info.phone=document.getElementById("phone").value;
-  info.address=document.getElementById("Address").value;
-  info.amount=document.getElementById("amount").value;
-  // var inputText1 = document.getElementById("phone").value;
-  // var inputText2 = document.getElementById("Address").value;
-  // var inputText3 = document.getElementById("amount").value;
-  //var finalInput = "Phone:" +inputText1 ;
-  confirm(info);
+  //To get the input value we used. value and we will add it to the ul
+  var inputText1 = document.getElementById("phone").value;
+  var inputText2 = document.getElementById("Address").value;
+  var inputText3 = document.getElementById("amount").value;
+  var finalInput = "address:" +inputText2+"     "+"Phone:" +inputText1;
+  
+  confirm(finalInput);
+}
 
   // var newTask = document.createElement("li");
   // //add <li> to <ul>
@@ -82,5 +87,5 @@ add1.onclick = function addTask() {
   // //inner.HTML is used to type in values/give values
   // newTask.innerHTML = inputText;
   // console.log("Add new task");
-}
+
 
