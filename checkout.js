@@ -4,10 +4,10 @@ var storeTab=document.getElementById('store');
 var cartTab=document.getElementById('cart');
 // homeTab.onclick =
 homeTab.onclick=function homePage(){
-	location.href= "index.html";
+  location.href= "index.html";
 }
 storeTab.onclick=function storePage(){
-	location.href= "store.html";
+  location.href= "store.html";
 }
 cartTab.onclick=function storePage(){
   location.href= "cart.html";
@@ -51,7 +51,6 @@ function addvalue(number){
   console.log(total);
 var amount=document.getElementById('amount').innerHTML=total;
 console.log(amount);
-
 }
 // var result=0;
 // function addvalue(number)
@@ -60,21 +59,20 @@ console.log(amount);
 // console.log(result);
 // }
 //$("#amount").text(total);
-
-
-
+// function object(){
+//   var info={};
+//   info.phone=document.getElementById("phone").value;
+//   info.address=document.getElementById("Address").value;
+//   info.amount=document.getElementById("amount").value;
+// }
 var add1= document.getElementById("order");
 add1.onclick = function addTask() {
-  var info={};
-  info.phone=document.getElementById("phone").value;
-  info.address=document.getElementById("Address").value;
-  info.amount=document.getElementById("amount").value;
-  // var inputText1 = document.getElementById("phone").value;
-  // var inputText2 = document.getElementById("Address").value;
-  // var inputText3 = document.getElementById("amount").value;
-  //var finalInput = "Phone:" +inputText1 ;
-  confirm(info);
-
+  //To get the input value we used. value and we will add it to the ul
+  var inputText1 = document.getElementById("phone").value;
+  var inputText2 = document.getElementById("Address").value;
+  var inputText3 = document.getElementById("amount").value;
+  var finalInput = "Phone: " +inputText1 +\n+ "Address: " + inputText2 +\n+ "Amount: $" + inputText3;  
+  confirm(finalInput);
   // var newTask = document.createElement("li");
   // //add <li> to <ul>
   // document.getElementById("todo-list").appendChild(newTask);
@@ -83,4 +81,3 @@ add1.onclick = function addTask() {
   // newTask.innerHTML = inputText;
   // console.log("Add new task");
 }
-
