@@ -16,6 +16,27 @@ cartTab.onclick=function storePage(){
   location.href= "cart.html";
 }
 
+var firstOffer = document.getElementById('offer1')
+var imgArray = ['doughnuts.jpg', 'Eclair.jpg', 'Pastry2.jpg', 'chocolate tart.jpg'];
+var imgIndex = 1;
+function presentImage() {
+  firstOffer.setAttribute('scr',imgArray[imgIndex]);
+  imgIndex++;
+  if(imgIndex > 3)
+    imgIndex = 0;
+}
+
+// imgArray[0] = new Image();
+// imgArray[0].src = 'doughnuts.jpg';
+
+// imgArray[1] = new Image();
+// imgArray[1].src = 'Eclair.jpg';
+
+// imgArray[2] = new Image();
+// imgArray[2].src = 'Pastry2.jpg';
+
+// imgArray[3] = new Image();
+// imgArray[3].src = 'chocolate tart.jpg';
 
 
 /*function addvalue(number){

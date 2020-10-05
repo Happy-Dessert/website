@@ -50,9 +50,7 @@ button{
 	
 }
 .pastries img{
-	width:22%;
-	height: 25%;
-	margin: 15px;
+	margin: 30px;
 
 }
 /*
@@ -85,7 +83,7 @@ margin: 80px;
 }
 .quantity1  label {
 	text-align: center;
-	margin-left:200px;
+	margin-left:500px;
 	
 	
 }
@@ -100,11 +98,16 @@ margin: 80px;
 
 
 }
-.cart label{
-	font-size: 50px;
+.cart {
+	font-size: 24px;
 	margin-left: 10px;
+	text-align: center;
+	color: #232424;
+	background-color: #c4e0d1;
+	border: none;
+	font-family: Century Gothic;
 }
-.cart button{
-	font-size: 10px;
+/*.cart button{
+	font-size: 24px;
 	width: 80px;
-}
+}*/
