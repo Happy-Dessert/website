@@ -32,7 +32,7 @@ footer{
 	text-align: center;
 	font-size: 16px;
 }
-button{
+.buttons button{
 	color: #232424;
 	background-color: #c4e0d1;
 	border: none;
@@ -50,7 +50,9 @@ button{
 	
 }
 .pastries img{
-	margin: 30px;
+	width:22%;
+	height: 25%;
+	margin: 15px;
 
 }
 /*
@@ -66,7 +68,9 @@ button{
 }
 .Addtocart button{
 	width:22%;
-	
+	color: #232424;
+	background-color: #c4e0d1;
+	border: none;
 	margin: 15px;
 }
 .label label{
@@ -83,7 +87,7 @@ margin: 80px;
 }
 .quantity1  label {
 	text-align: center;
-	margin-left:500px;
+	margin-left:200px;
 	
 	
 }
@@ -98,16 +102,19 @@ margin: 80px;
 
 
 }
-.cart {
-	font-size: 24px;
+.cart label{
+	font-size: 50px;
 	margin-left: 10px;
-	text-align: center;
-	color: #232424;
+}
+.cart button{
+color: #232424;
 	background-color: #c4e0d1;
 	border: none;
-	font-family: Century Gothic;
+	width: 50px;
+	height: 50px;
+
 }
-/*.cart button{
-	font-size: 24px;
-	width: 80px;
-}*/
+#quantity{
+	margin-left: 1px;
+	margin-right: 10px;
+}

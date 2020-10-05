@@ -11,7 +11,7 @@
 
     <body style="background-color: white">
 	   <div id="main-header">
-		<img src="th.jpg" id="logo">
+		
 		<h1>Happy Dessert</h1>
 	</div>
 
@@ -36,7 +36,7 @@
 	<label >HOMEMADE 9$</label>
 	
 </div>
-<div class="quantity">
+<div class="quantity1">
 	<label>Quantity:</label>
 	<input type="number" id="quantity" name="quantity" min="1" >
 	<label>Quantity:</label>
@@ -57,30 +57,36 @@
 <div class="cart" >
 		<form>
 			 <label>Address:</label>
-			 <input type="text" name="">
+			 <input type="text" name="" id="Address">
 			 <br>
 			 <label>Phone:</label>
-			 <input type="Phone" name=""><br>
-			 <label>Amount:</label>
-			 <h2 id="amount">0<h2>
-			 <button>Order</button>
+			 <input type="Phone" id="phone" name=""><br>
+			 <label>Amount:</label><h2 id="amount" style="text-align: center;">0<h2>
+			 <button id="order" >Order</button>
 		</form>
-	</div>
 
+	</div>
+	<div class="input-container">
+    <input type="text" id="input-task">
+    </div>
+    <div id="list-container">
+    <ul id="todo-list">
+    </ul>
 	<br>
 	<br>
 	<br>
 
 <div class="offers">
-	<img id="offer1" src="doughnuts.jpg">
-	<button onclick="presentImage()" style="border-radius: 100%; width: 100px; height: 100px"></button>
-<!-- 	<img id="offer2" src="Cupcake1.jpg">
-	<img id="offer3" src="Cupcake1.jpg"> -->
+	<img id="offer1" src="image.png">
+	<img id="offer2" src="image (2).png" style="height: 350px; margin-bottom: 10px">
+	<img id="offer3" src="image (3).png">
 </div>
 
 
 <footer>Our Branches: Abdoun, Tlaa Al Ali, Deir Ghbar, Khalda<br>Contact us on: +962 79 5676 898</footer>
-<script type="text/javascript" src=checkout.js></script>
+<script type="text/javascript" src=checkout.js>
+
+</script>
 </body>
 </html>
 
